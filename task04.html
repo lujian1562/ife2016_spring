@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>任务04</title>
+	<style type="text/css">
+		.parent {
+			position: absolute;
+			top:0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+		}
+		.child {
+			position: absolute;
+			width: 400px;
+			height: 200px;
+			background-color: #eee;
+			left: 50%;
+			top:50%;
+			transform: translate(-50%,-50%);
+			overflow: hidden;
+		}
+		.circle01,.circle02 {
+			width: 100px;
+			height: 100px;
+			background-color: #fc0;
+			border-radius: 50px;
+		}
+		.circle01 {
+			position: absolute;
+			top: -50px;
+			left: -50px;
+		}
+		.circle02 {
+			position: absolute;
+			top: 150px;
+			left: 350px;
+		}
+	</style>
+</head>
+<body>
+	<div class="parent">
+		<div class="child">
+			<div class="circle01"></div>
+			<div class="circle02"></div>
+		</div>
+	</div>
+</body>
+</html>
